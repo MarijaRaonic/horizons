@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Montserrat:300,400&display=swap');
+
+:root {
+    --green: #32b777;
+    --white: #fff;
+    --gray: #555;
+    --lightgray: #ececec;
+    --darkgray: #222;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: var(--gray);
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4 {
+    font-family: 'Comfortaa', cursive;
+}
+
+img{
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+}
+
+/* header */
+
+header {
+    position: relative;
+    color: var(--lightgray);
+}
+
+
+header div img{
+    height: 90vh;
+    object-fit: cover;
+    background-color: black;
+    opacity: 0.9;
+}
+
+header nav{
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+
+header nav a{
+    color: var(--lightgray);
+    text-decoration: none;
+}
+
+header nav .drugiRed a{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+header .naslov{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header .naslov h1, p, a{
+    color: var(--white);
+}
+
+header .dugme{
+    background-color: var(--green);
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+header .naslov p{
+    padding: 2rem 0;
+}
+
+/* hero */
+
+.hero{
+    background-color: var(--lightgray);
+    color: var(--gray);
+    text-align: center;
+}
+
+.hero .container{
+    margin: auto;
+}
+
+.hero .niz{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 3rem;
+}
+
+.hero p{
+    color: var(--gray)
+}
+
+.hero .niz div{
+    flex: 0 0 32%;
+}
+
+.hero h2{
+    padding-top: 3rem;
+}
+
+.hero img{
+    padding: 2rem 0;
+}
+
+/* druga sekcija */
+
+.druga .container{
+    margin: auto;
+}
+
+.druga p{
+    color: var(--gray);
+}
+
+.druga .centar{
+    text-align: center;
+    padding: 3rem 0 0;
+}
+
+.druga .ikone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 0 5rem;
+}
+
+.druga .ikone article{
+    flex: 0 0 47%;
+    padding-bottom: 2rem;
+}
+
+.druga .ikone i{
+    background-color: var(--green);
+    color: var(--white);
+    font-size: xx-large;
+    border-radius: 1rem;
+}
+
+.druga .leptir{
+    display: flex;
+    justify-content: space-between;
+}
+
+.druga .leptir i{
+ flex: 0 0 15%;
+ padding: 2rem 2rem;
+ height: 6rem;
+ align-items: center;
+}
+
+.druga .leptir .lep{
+    flex: 0 0 78%;
+}
+
+.druga .planina{
+    display: flex;
+    justify-content: space-between;
+}
+
+.druga .planina i{
+    flex: 0 0 15%;
+    padding: 2rem 2rem;
+    height: 6rem;
+    align-items: center;
+}
+
+.druga .leptir .pla{
+    flex: 0 0 78%;
+}
+
+.druga .cvet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.druga .cvet i{
+    flex: 0 0 15%;
+    padding: 2rem 2rem;
+    height: 6rem;
+    align-items: center;
+}
+
+.druga .cvet .cv{
+    flex: 0 0 78%;
+    
+}
+
+.druga .strelica{
+    display: flex;
+    justify-content: space-between;
+}
+
+.druga .strelica i{
+    flex: 0 0 15%;
+    padding: 2rem 2rem;
+    height: 6rem;
+    align-items: center;
+}
+
+.druga .cvet .str{
+    flex: 0 0 78%;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--darkgray);
+    color: var(--lightgray);
+}
+
+footer .container{
+    margin: auto;
+}
+
+footer .triDela{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0 2rem;
+    
+}
+
+footer .triDela .paragraf{
+    flex: 0 0 30%;
+    line-height: 2;
+}
+
+footer .triDela .linkovi{
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+footer .triDela .adresa{
+    flex: 0 0 30%;
+    line-height: 1;
+}
+
+footer .triDela .adresa h3{
+    margin-bottom: 1rem;
+}
+
+footer .poslednji {
+    text-align: center;
+    padding: 2rem 0 6rem;
+}
